@@ -1,0 +1,55 @@
+/* Option Part */
+.group{
+    width:100%;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,minmax(170px,170px));
+
+    justify-content:center;
+
+    gap:70px;
+
+    margin:50px auto;
+
+    padding:0 60px;
+
+    box-sizing:border-box;
+}
+.group a{
+    text-decoration: none;
+    Color:black;
+}
+
+.option a{
+    text-decoration:none;
+    Color:black;
+}
+.option{
+    width:150px;
+    height:150px;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:18px;
+
+    box-sizing:border-box;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+    transition:.3s;
+}
+
+.option:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+

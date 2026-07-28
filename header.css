@@ -1,0 +1,111 @@
+
+body{
+    background-color: rgba(255, 165, 0,60%);
+    margin:0px;
+
+}
+
+       /* Head part  */
+/* Header */
+
+header{
+    width:100%;
+    height:150px;
+    background:#01290F;
+
+    display:flex;
+    align-items:center;
+
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    margin:0;
+    padding:0 20px;
+    box-sizing:border-box;
+}
+
+header img{
+    width:auto;
+    height:clamp(100px,18vw,220px);
+}
+
+header img{
+    max-width:320px;
+    width:100%;
+    height:auto;
+}
+
+section{
+  align-items: center;
+  justify-content: center;
+}
+
+/* Headline */
+section h1{
+    margin:50px 0;
+
+    text-align:center;
+    
+    color:green;
+
+    font-family:"Flavors", cursive;
+
+    font-size:clamp(28px,5vw,60px);
+
+    font-weight:400;
+
+    text-decoration:underline;
+}
+
+section h3 {
+    background-color: red;
+    color:rgb(229, 255, 0);
+    text-align: center;
+    align-content: center;
+    height: 50px;
+}
+
+
+
+.button-container {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.button-container .btn {
+    display: inline-block;
+    margin: 0 8px;
+    height: 60px;
+    line-height: 60px;   /* Centers text vertically */
+    padding: 0 20px;
+    border: 5px outset red;
+    border-radius: 15%;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+#Feedback {
+    background-color: rgb(3, 126, 3);
+    color: pink;
+}
+
+#suggestion {
+    background-color: blue;
+    color: yellow;
+}
+
+#Feedback:hover,
+#suggestion:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+}
+
+
+footer{
+    margin-top: 4%;
+    height:200px;
+    background-color:rgb(24, 7, 7);
+}
