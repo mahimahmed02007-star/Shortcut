@@ -3,8 +3,9 @@
 @media (max-width:780px){
 
     .group{
-         grid-template-columns:repeat(2,minmax(170px,170px));
+         grid-template-columns:repeat(3,minmax(170px,170px));
         gap:30px;
+         margin-left:20px;
     }
 
     .option{
@@ -17,30 +18,30 @@
     }
 
     section h3 {
-    font-size:20px;
+    font-size:18px;
 }
 
 }
 
 
 
-@media (max-width:480px){
+@media (max-width:580px){
 
     .group{
-         grid-template-columns:repeat(1,minmax(170px,170px));
+         grid-template-columns:repeat(2,minmax(170px,170px));
         gap:30px;
     }
 
     .option{
-        width:140px;
-        height:140px;
+        width:130px;
+        height:130px;
     }
 
     section h1{
         font-size:30px;
     }
    section h3 {
-    font-size:18px;
+    font-size:14px;
 }
 
 
@@ -48,7 +49,7 @@
 
 
 
-@media (max-width:260px){
+@media (max-width:430px){
 
     .group{
         grid-template-columns:repeat(1,minmax(100px,100px));
@@ -66,7 +67,7 @@
         font-size:30px;
     }
     section h3 {
-    font-size:15px;
+    font-size:12px;
    
 }
 }

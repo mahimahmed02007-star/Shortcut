@@ -19,6 +19,8 @@
 .group a{
     text-decoration: none;
     Color:black;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .option a{
@@ -53,3 +55,74 @@
     box-shadow:0 15px 35px rgba(0,0,0,.25);
 }
 
+#biology{
+    background-image: url(pic/biology.jpg);
+     background-size: 150px 150px;
+}
+
+#chemistry{
+    background-image: url(pic/chemistry.jpg);
+    background-size: 150px 150px;
+}
+
+#ICT{
+    background-image: url(pic/Ict.jpg);
+    background-size: 150px 150px;
+}
+
+#Physics{
+    background-image: url(pic/physics.jpg);
+    background-size: 150px 150px;
+}
+
+#G_math{
+    background-image: url(pic/G_math.jpg);
+    background-size: 150px 150px;
+}
+#English{
+    background-image: url(pic/English.jpg);
+    background-size: 150px 150px;
+}
+
+#Bangla{
+    background-image: url(pic/Bangla.webp);
+    background-size: 150px 150px;
+}
+
+#bgs{
+    background-image: url(pic/bgs.avif);
+    background-size: 150px 150px;
+}
+
+#Islam{
+    background-image: url(pic/Islam.jpg);
+    background-size: 150px 150px;
+}
+
+#Bang_Color{
+color:#4A1D12;
+}
+#Eng_Color{
+color:#1E3A5F;
+}
+#G_math_Color{
+color:#F8FAFC;
+}
+#Bgs_Color{
+color:#5A3213;
+}
+#Islam_Color{
+color:#2F4F3E;
+}
+#P6_Color{
+color:#F8FAFC;
+}
+#Chemi_Color{
+color: #0F172A;
+}
+#Bio_Color{
+color:#F8FAFC;
+}
+#ICT_Color{
+color:#F8FAFC;
+}
