@@ -1,7 +1,7 @@
 /* Option Part */
 .group{
     width:100%;
-
+    
     display:grid;
 
     grid-template-columns:repeat(3,minmax(170px,170px));
