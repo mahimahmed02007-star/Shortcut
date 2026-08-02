@@ -81,11 +81,12 @@ section h3 {
 .button-container .btn {
     display: inline-block;
     margin: 0 8px;
-    height: 60px;
+    width:200px;
+    height: 65px;
     line-height: 60px;   /* Centers text vertically */
     padding: 0 20px;
     border: 5px outset red;
-    border-radius: 15%;
+    border-radius: 10%;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
