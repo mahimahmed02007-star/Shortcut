@@ -1,7 +1,11 @@
-
+/* *{
+    outline:1px solid rgb(0, 0, 0);
+} */
 body{
+    width:100%;
     background-color: rgba(255, 165, 0,60%);
     margin:0px;
+    
 
 }
 
@@ -43,7 +47,7 @@ section{
 
 /* Headline */
 section h1{
-    margin:50px 0;
+    /* margin:50px 0; */
 
     text-align:center;
     
@@ -51,7 +55,7 @@ section h1{
 
     font-family:"Flavors", cursive;
 
-    font-size:clamp(28px,5vw,60px);
+    font-size:50px;
 
     font-weight:400;
 
@@ -60,6 +64,7 @@ section h1{
 
 section h3 {
     background-color: red;
+    background-size: auto;
     color:rgb(229, 255, 0);
     text-align: center;
     align-content: center;

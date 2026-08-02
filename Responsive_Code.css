@@ -29,6 +29,7 @@
 @media (max-width:580px){
 
     .group{
+        width :auto;
          grid-template-columns:repeat(2,minmax(170px,170px));
         gap:30px;
     }
@@ -53,6 +54,7 @@
 @media (max-width:480px){
 
     .group{
+        width: auto;
         grid-template-columns:repeat(2,minmax(100px,100px));
         gap:50px;
     }
@@ -68,6 +70,7 @@
         font-size:30px;
     }
     section h3 {
+        background-size: 470px;
     font-size:12px;
    
 }
