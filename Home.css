@@ -4,7 +4,7 @@
 
     display:grid;
 
-    grid-template-columns:repeat(3,minmax(170px,170px));
+    grid-template-columns:repeat(4,minmax(170px,170px));
 
     justify-content:center;
 
